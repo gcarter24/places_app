@@ -1,0 +1,7 @@
+@places.map { |place|
+  {
+    id: place.id,
+    name: place.name,
+    address: place.address,
+  }
+}
