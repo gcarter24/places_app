@@ -12,7 +12,7 @@ class Api::PlacesController < ApplicationController
     if @place.save
       render "show.json.jb"
     else
-      render json: { errors: @movie.errors.full_messages }
+      render json: { errors: @place.errors.full_messages }
     end
   end
 
